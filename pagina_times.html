@@ -1,0 +1,42 @@
+<html lang="pt-br">
+    <head>
+       <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="escudo.png" sizes="16x16">
+        <title>Atletas Botafogo</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header id="header-body-pagina_times">
+            <img class="escudo-logo" src="escudo.png">
+            <h1 id="head-line-atletas">Atletas Botafogo 2024-1</h1>
+            <button id="botão-sair"><a href="index.html">Sair</a></button>
+        </header>
+        <div id="seleção">
+            <button class="botões-da-seleção" value="masculino">Elenco Masculino</button>
+            <button class="botões-da-seleção" value="feminino">Elenco Feminino</button>
+            <button class="botões-da-seleção" value="all">Elenco Completo</button>
+        </div>
+        <select id="opções">
+            <option value="" disabled="">Escolha o elenco</option>
+            <option value="masculino">Elenco Masculino</option>
+            <option value="feminino">Elenco Feminino</option>
+            <option value="all">Elenco Completo</option>
+        </select>
+        <div id="div-input-nome">
+            <input id="input-nome" type="search" placeholder="Escreva um nome">
+        </div>
+        <h2 id="texto-espera">Carregando..............(Se ignorar carrega mais rápido)</h2>
+        <div id="sessão-jogadores">
+        </div>
+        <div id="modal-jogador" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <img id="modal-imagem" src="" alt="Imagem do Jogador" class="modal-imagem">
+                <div id="modal-detalhes-jogador" class="modal-detalhes-jogador"></div>
+            </div>
+        </div>      
+    </body>
+</html>

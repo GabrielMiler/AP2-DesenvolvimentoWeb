@@ -1,0 +1,199 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+#botão-entrar{
+    background-color: black; 
+    border: none; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    padding: 8px 16px; 
+    cursor: pointer;
+}
+#entrada-senha{
+    padding: 4.8px; 
+    margin: 8px;
+}
+#form-exemplo{
+    text-align: center; 
+    flex: 0.6 1 0%;
+}
+#texto-atletas{
+    text-align: center; 
+    flex: 1 1 0%; display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+#bardock{
+    height: 768px;
+    width: 400px;
+}
+#goku{
+    height: 768px;
+    width: 400px;
+}
+#sessão-entrar{
+    display: flex; 
+    flex-direction: column; 
+    margin: 0px; 
+    width: 1200px; 
+    min-width: unset;
+}
+#body-index{
+    display: flex; 
+    height: 768px; 
+    margin: 8px 0px;
+}
+p,a {
+    font-family: comic sans-serif;
+}
+.botões-da-seleção{
+    background-color: black; 
+    border: none; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    padding: 8px 16px; 
+    cursor: pointer; 
+    font-size: 20.8px; 
+    max-width: 96px;
+}
+#texto-espera{
+    animation: 1s ease-out 0s infinite normal none running blink; 
+    display: none; 
+    margin: auto; 
+    width: min-content;
+}
+#sessão-jogadores{
+    display: grid; 
+    gap: 16px; 
+    max-width: 1200px; 
+    margin: auto; 
+    grid-template-columns: 1fr;
+}
+#input-nome{
+    text-align: center; 
+    line-height: 50px; 
+    max-width: 80%; 
+    width: 400px;
+}
+#div-input-nome{
+    text-align: center; 
+    margin: 0px auto 50px;
+}
+#botão-sair{
+    background-color: black; 
+    border: none;
+     color: white; 
+     text-align: center; 
+     text-decoration: none; 
+     padding: 8px 16px; 
+     cursor: pointer;
+}
+#opções{
+    background-color: black; 
+    border: none; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    padding: 16px 24px; 
+    display: block; 
+    margin: 16px auto 8px; 
+    font-size: larger;
+}
+#seleção{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    margin: 32px 0px;
+}
+#head-line-atletas{
+    color: white; 
+    margin: 0px; 
+    flex-grow: 1;
+}
+#header-body-pagina_times{
+    background-color: black; 
+    padding: 8px 16px; 
+    position: relative; 
+    display: flex; 
+    flex-direction: row;
+}
+.escudo-logo{
+    height: 40px; 
+    width: 40px;
+}
+#sessão-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.jogador {
+    flex: 0 1 calc(25% - 20px); 
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imagem-jogador {
+    width: 250px;
+    height: 250px;
+    border-radius: 110%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-position: 20% 20%;
+}
+.detalhes-jogador {
+    text-align: left;
+}
+.detalhes-jogador p {
+    margin: 2px 0;
+}
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+}
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 110%;
+    object-fit: cover;
+    object-position: 20% 20%;
+}
+.modal-detalhes-jogador p {
+    margin: 2px 0;
+}
